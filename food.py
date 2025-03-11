@@ -24,7 +24,7 @@ foodList = ["pizza", "beefjerkey", "ricetriangles", "steamed chinese bun", "frie
 
 foodList[0] = input("Enter a food: ")
 foodList[1] = input("Enter a food:")
-foodList[2] = input("Eneter a food:")
+foodList[2] = input("Enter a food:")
 foodList[3] = input("Enter a food:")
 foodList[4] = input("Enter a food:")
 
