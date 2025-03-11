@@ -15,3 +15,27 @@
 #Your entered foods are:
 #[pizza, beef jerkey, rice triangles, steamed chinese bun, fried chicken] 
 #You entered a total of 62 characters
+
+#Create a list
+
+foodList = ["pizza", "beefjerkey", "ricetriangles", "steamed chinese bun", "fried chicken"]
+
+#Prompt the user to enter five foods, and store the responses in the list
+
+foodList[0] = input("Enter a food: ")
+foodList[1] = input("Enter a food:")
+foodList[2] = input("Eneter a food:")
+foodList[3] = input("Enter a food:")
+foodList[4] = input("Enter a food:")
+
+#Display the list on one line, each item seperated by commas
+
+print("Your entered foods are")
+print(foodList)
+
+#Calculate how many characters were entered and display this to the user
+
+totalCaracters = len(foodList[0]) + len(foodList[1]) + len(foodList[2]) + len(foodList[3]) + len(foodList[4])
+print(f"You entered a total of {totalCaracters} characters")
+
+
