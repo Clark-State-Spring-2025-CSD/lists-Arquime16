@@ -38,4 +38,6 @@ print(foodList)
 totalCaracters = len(foodList[0]) + len(foodList[1]) + len(foodList[2]) + len(foodList[3]) + len(foodList[4])
 print(f"You entered a total of {totalCaracters} characters")
 
+#I got the help of copilot for to do this code. 
+
 
