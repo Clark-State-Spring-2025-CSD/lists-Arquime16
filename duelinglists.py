@@ -42,7 +42,7 @@ for i in range(10):
     elif playerTwo[i] > playerOne[i]:
         playerTwoWins += 1
     else:
-        pass
+        continue
 
 #Keep track of how many times each list wins.
 #Find the highest number in each list and it's index. If the number occers multiple times take the first instsance.
